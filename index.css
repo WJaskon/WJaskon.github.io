@@ -1,267 +1,133 @@
-#start{
-    width: 100vw;
-    height: 100vh;
-    background: url(./imgs/1.jpeg);
-    background-size: cover;
-    filter: grayscale(0%);
-    transition: all 1s;
-}
-/* .start:hover{
-    width: 100vw;
-    height: 100vh;
-    background: url(./imgs/1.jpeg);
-    background-size: cover;
-    filter: grayscale(100%);
-} */
-
-.mid{
-    width: 100vw;
-
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.name{
-    position: absolute;
-    font-family: Helvetica;
-    font-size: 120px;
-    left: 30%;
-    top: 20%;
-    width: 30vm;
-    height: 10vm;
-    transform: translate(-50%,-10%);
-    background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
-    -webkit-background-clip:text; 
-    -webkit-text-fill-color:transparent; 
-    padding: 20px;
-    line-height: 130px;
-    
-}
-.name-real{
-    position: absolute;
-    font-family: Helvetica;
-    font-size: 120px;
-    left: 30%;
-    top: 20%;
-    width: 30vm;
-    height: 10vm;
-    transform: translate(-50%,-10%);
-    background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
-    -webkit-background-clip:text; 
-    -webkit-text-fill-color:transparent; 
-    padding: 20px;
-    line-height: 130px;
-    filter: blur(10px);
-    
-}
-
-.about-me{
-    width: 70vw;
-    height: 100vh;
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
-
-.title{
-    margin-top: 50px;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.title span{
-    color: #8de8fa;
-}
-
-.dots{
-    font-size: 30px;
-}
-.dots span{
-    color: #ffafbd;
-}
-
-.icon{
-    height: 100px;
-    background-image: url(./imgs/2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:center ;
-
-}
-.icon-2{
-    height: 100px;
-    background-image: url(./imgs/3.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:center ;
-
-}
-.icon-3{
-    height: 100px;
-    background-image: url(./imgs/4.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:center;
-
-}
-.icon-4{
-    height: 100px;
-    background-image: url(./imgs/5.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:center ;
-
-}
-.icon-5{
-    height: 400px;
-    width: 500px;
-    background-image: url(./imgs/9.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:center ;
-
-}
-.icon-6{
-    height: 100px;
-    background-image: url(./imgs/7.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:center ;
-
-}
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    
-}
-
-.edu{
-    font-size: 30px;
-    margin-top: 3vh;
-    color: #ff9fd2;
-    text-align: center;
-}
-.main{
-    margin-top: 3vh;
-    width: 200px;
-    height: 200px;
-    font-size: 20px;
-    text-align: center;
-}
-
-.main-about{
-    width: 300px;
-    text-align: left;
-    font-size: 20px;
-
-}
-.main-about div{
-    margin-top: 20px;
-}
-
-.container-item{
-    flex-shrink: 0;
-    float:left;
-    margin: 40px;
-    align-self: center;
-    
-}
-
-.part-job{
-    height: 100vh;
-    
-}
-
-.img-com{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-
-.job-job{
-    font-size: 3vh;
-    width: 30vw;
-}
-
-.line{
-    height: 0.5vh;
-    background-color: #666;
-}
-
-.img-com img{
-    float: left;
-    width: 30vw;
-    height: 40vh;
-    margin: 2vh;
-    box-shadow: 4 px 0px 4px #666;
-    border-radius: 10px;
-}
-
-.banner{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    width: 100vw;
-    height: 10vh;
-    z-index: 99;
-    box-shadow: 10px 1px 50px 0px black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icon-tool{
-    height:5vh;
-    float: left;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    font-size: 2vw;
-    font-family: Helvetica;
-    transition: all 0.1s;
-}
-
-.icon-tool:hover{
-    height:5vh;
-    float: left;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    font-size: 2vw;
-    font-family: Helvetica;
-    font-size: 3vw;
-    
-}
-
-.icon-7{
-    display: block;
-    height: 100px;
-    background-image: url(./imgs/17.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:center ;
-
-}
-
-.icon-8{
-    height: 100px;
-    background-image: url(./imgs/18.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:center ;
-
-}
-
-.icon-9{
-    height: 100px;
-    background-image: url(./imgs/19.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:center ;
-
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>WJaskon</title>
+</head>
+<body>
+    <div class="banner"> 
+        <div class="icon-tool"><a href="#start">Home</a></div>
+        <div class="icon-tool"><a href="#about">About</a></div>
+        <div class="icon-tool"><a href="#experience">Experience</a></div>
+        <div class="icon-tool"><a href="#photo">Photo</a></div>
+        <div class="icon-tool"><a href="#contact">Contact</a></div>
+    </div>
+     <div id="start" name="home">
+        <div class="name-real">
+            <div class="family-name">WANG</div>
+            <div class="given-name">ZHENBO</div>
+        </div>
+        <div class="name">
+            <div class="family-name">WANG</div>
+            <div class="given-name">ZHENBO</div>
+        </div>
+    </div> 
+    <div class="mid">
+        <div class="about-me"  id="about"\>
+            <div class="title">A little <span>about</span> me</div>
+            <div class="dots">................ <span>. .</span> ..............</div>
+            <div class="container">
+                <div class="container-item">
+                    <div class="icon-5"></div>
+                </div>
+                <div class="container-item about-main">
+                    <div class="main-about">
+                        <div>所属:東京大学　新領域創成科学研究科</div>
+                        <div>社会文化環境　瀬崎・西山研究室</div>
+                        <div>出身: 中国 大連</div>
+                        <div>言語: 中国語　日本語　英語</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="icon-4"></div>
+                    <div class="edu">技術</div>
+                    <div class="main">
+                        <div>Python JavaScript GIS JMP</div>
+                        <div>SPSS SAS R</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="icon-3"></div>
+                    <div class="edu">資格</div>
+                    <div class="main">
+                        <div>ITパスポート</div> <div>統計検定２級</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="icon-6"></div>
+                    <div class="edu">興味</div>
+                    <div class="main">
+                        <div>データ分析 </div><div>バスケード</div>
+                        <div>料理 撮影 野球</div>
+                    </div>
+                </div>
+                
+            </div> 
+            <div class="line"></div> 
+            <div >
+                <div class="part-job" id="experience">
+                    <div class="title">実務 <span>経</span> 験</div>
+                    <div class="dots">................ <span>. .</span> ..............</div>
+                    <div class="img-com">
+                        <img src="./imgs/8.png" alt="">
+                        <div class="job-main">
+                            <div class="job-job">日本株式会社TRANSFORM<div> 唯新学院 </div> <div> 留学生の指導 </div> <div> オンライン教育の学生側開発</div> 学生個人システム開発-データ側 <div> 2019.03〜2022.04</div></div>
+                    </div>
+                    <div class="img-com">
+                        <div class="job-main">
+                            <div class="job-job">北区・子どもの水辺
+                                <div>体験ボランティア２０２１</div> <div>子ども達と一緒に遊ぶ</div> <div>保育補助、清掃など</div>
+                            <div>2021年7月17日～9月30日</div></div>
+                    </div>
+                    <img src="./imgs/20.jpeg" alt="">
+                </div>    
+            <div> 
+                <div >
+                    <div class="part-job" id="photo">
+                        <div class="title">Photo <span>Library</span></div>
+                        <div class="dots">................ <span>. .</span> ..............</div>
+                        <div class="img-com">
+                            <img src="./imgs/11.JPG" alt="">
+                            <img src="./imgs/12.jpeg" alt="">
+                            <img src="./imgs/13.jpeg" alt="">
+                            <img src="./imgs/14.jpeg" alt="">
+                            <img src="./imgs/15.jpeg" alt="">
+                            <img src="./imgs/16.jpeg" alt="">
+                        </div>   
+                    </div>    
+                <div>  
+            </div>      
+            <div style="transform: translateY(50vh);"><div class="title">Contact</div>
+            <div class="dots">................ <span>. .</span> ..............</div>
+            <div class="container" id="contact">
+                <div class="container-item">
+                    <a class="icon-7" href="https://www.google.co.jp/maps/place/東京都東京/@35.6681625,139.6007825,11z/data=!3m1!4b1!4m5!3m4!1s0x60188b857628235d:0xcdd8aef709a2b520!8m2!3d35.6803997!4d139.7690174"></a>
+                    <div class="edu">Address</div>
+                    <div class="main">
+                        <div>Japan tokyo</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="icon-8"></div>
+                    <div class="edu">Phone</div>
+                    <div class="main">
+                        <div>080-5383-1202</div>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="icon-9"></div>
+                    <div class="edu">Email</div>
+                    <div class="main">
+                        <div>mengbabo@gmail.com</div>
+                    </div>
+                </div>
+                
+            </div> </div>       
+        </div>
+    </div>
+  
+</body>
+</html>
