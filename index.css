@@ -153,15 +153,17 @@ a{
     text-align: center;
 }
 
-.main-about{
-    width: 300px;
+.main-about {
+    width: 300%;
     text-align: left;
     font-size: 20px;
-
 }
-.main-about div{
+
+.main-about div {
+    display: inline-block;
     margin-top: 20px;
 }
+
 
 .container-item{
     flex-shrink: 0;
