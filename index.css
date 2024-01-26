@@ -178,3 +178,10 @@ a {
         font-size: 60px; /* 减小字体大小 */
         top: 10%; /* 调整位置 */
     }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
